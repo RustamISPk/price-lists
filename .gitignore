@@ -11,6 +11,6 @@ yarn-debug.log*
 yarn-error.log*
 /.pnp
 .pnp.js
-
+.DS_Store
 .vscode/*
 >>>>>>> parent of fd41534 (project create and add frameworks)
