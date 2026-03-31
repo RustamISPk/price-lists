@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD:frontend/package.json
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -18,12 +17,6 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-=======
-  "name": "Код",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
->>>>>>> parent of fd41534 (project create and add frameworks):package.json
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
