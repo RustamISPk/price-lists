@@ -1,15 +1,15 @@
 # Этап сборки
-FROM node:18-alpine AS builder
+FROM node:22-alpine AS builder
 
 WORKDIR /app
 
-# Копируем файлы package.backup.json
+# Копируем package.json и package-lock.json (обратите внимание на правильные имена)
 COPY package*.json ./
 
 # Устанавливаем зависимости
 RUN npm ci
 
-# Копируем исходный код
+# Копируем ВСЕ исходные файлы из ТЕКУЩЕЙ директории
 COPY . .
 
 # Собираем приложение
