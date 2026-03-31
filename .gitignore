@@ -1,2 +1,16 @@
+<<<<<<< HEAD
 .idea
 .env
+=======
+/tmp
+/out-tsc
+
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.pnp
+.pnp.js
+
+.vscode/*
+>>>>>>> parent of fd41534 (project create and add frameworks)
